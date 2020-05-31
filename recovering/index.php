@@ -24,7 +24,7 @@
                         <form action="controller.php" method="POST">
                             <div class="field">
                                 <div class="control">
-                                    <input name="mail"  class="input is-large" placeholder="Seu Email" autofocus="">
+                                    <input  name="mail"  class="input is-large" placeholder="Seu Email" autofocus="">
                                 </div>
                             </div>
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Enviar</button>

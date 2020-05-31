@@ -1,3 +1,6 @@
+<?php
+session_destroy();
+?>
 <!DOCTYPE html>
 <html>
     
@@ -24,17 +27,17 @@
                         <form action="controller.php" method="POST">
                             <div class="field">
                                 <div class="control">
-                                    <input name="name"  class="input is-large" placeholder="Seu Nome" autofocus="">
+                                    <input name="name" autocomplete='off' class="input is-large" placeholder="Seu Nome" autofocus="">
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input name="mail"  class="input is-large" placeholder="Seu Email" autofocus="">
+                                    <input name="mail"  autocomplete='off'  class="input is-large" placeholder="Seu Email" autofocus="">
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input name="pass" type="password"  class="input is-large" placeholder="Sua Senha" autofocus="">
+                                    <input name="pass"  autocomplete='off' type="password"  class="input is-large" placeholder="Sua Senha" autofocus="">
                                 </div>
                             </div>
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Enviar</button>
